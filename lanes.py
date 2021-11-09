@@ -10,7 +10,6 @@ def make_coordinates(image, line_parameters):
 	#print(image.shape)
 	return np.array([x1,y1,x2,y2])
 
-
 def average_slope_intercept(image,lines):
 	left_fit = []
 	right_fit = []
